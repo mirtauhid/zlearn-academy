@@ -1,0 +1,17 @@
+.products{
+    display: flex;
+}
+.cards{
+    height: 340px;
+    border: 1px solid lightgray;
+    margin: 30px;
+    border-radius: 10px;
+    width: 200px;
+    overflow: hidden;
+    background-color: #e7e7d0;
+    box-shadow: 5px 5px 10px gray;
+}
+.cards img{
+    height: 160px;
+    width: 200px;
+}
