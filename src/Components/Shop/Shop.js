@@ -15,7 +15,7 @@ const Shop = () => {
     }
 
     useEffect(() => {
-        fetch('http://www.json-generator.com/api/json/get/cemJupeCuW?indent=2')
+        fetch('https://www.json-generator.com/api/json/get/cemJupeCuW?indent=2')
             .then(res => res.json())
             .then(data => {
                 setProducts(data);
